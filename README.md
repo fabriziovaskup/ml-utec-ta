@@ -3,7 +3,8 @@
 ## 🎯 Cambio en Proyecto de Modelado Causal con X-Learner
 
 ### 🔧 Tipo de cambio
-- [x] Implementación de X-Learner
+- [x] Analisis Exploratorio de Datos.
+- [x] Implementación de S-Learner.
 - [ ] Ajuste de hiperparámetros
 - [ ] Análisis de efectos heterogéneos (CATE)
 - [ ] Comparación con otros meta-learners (T-Learner, S-Learner)
@@ -13,6 +14,12 @@
 - `scripts/estimacion_cate_xlearner.py`
 - `notebooks/cate_con_xlearner.ipynb`
 - `datos/variables_importantes.csv`
+
+### 🗂 Archivos agregados
+- `scripts/estimacion_cate_slearner.py`
+- `notebooks/cate_con_slearner.ipynb`
+- `datos/rlearner_variables_importantes.csv`
+
 
 ### 🧠 Descripción del cambio
 Se implementó el algoritmo **X-Learner** utilizando `EconML` con un modelo base `GradientBoostingRegressor` para estimar efectos heterogéneos del tratamiento. Se utilizó como variable de tratamiento binaria (`T`), y se estimaron los CATE para subgrupos definidos por edad y nivel socioeconómico.
