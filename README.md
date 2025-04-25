@@ -4,6 +4,7 @@
 
 ### 🔧 Tipo de cambio
 - [x] Implementación de X-Learner
+- [x] Implementación de DL-Learner
 - [ ] Ajuste de hiperparámetros
 - [ ] Análisis de efectos heterogéneos (CATE)
 - [ ] Comparación con otros meta-learners (T-Learner, S-Learner)
